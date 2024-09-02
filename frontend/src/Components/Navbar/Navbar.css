@@ -1,0 +1,143 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 100px;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.reduce-width{
+    width: 18px;
+}
+.button{
+    padding: 10px 30px;
+    color: #49557e;
+    background: transparent;
+    border: 1px solid tomato;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ .button:hover{
+   background: #fff4f2;
+ }
+ .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid purple;
+ }
+
+.navbar .icon{
+    position: relative;
+}
+
+.navbar .dot{
+    min-height: 10px;
+    min-width: 10px;
+    background-color: tomato;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    border-radius: 5px;
+}
+.drawdown-icons{
+    position: relative;
+    
+}
+.flex-icon img{
+    width: 20px;
+}
+.drawdown-icons .profile{
+    width: 40px;
+}
+.flex-icon{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    display: none;
+}
+
+.drawdown-icons:hover .flex-icon{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    padding: 12px 25px;
+    background-color: #fff2ef;
+    border-radius: 4px;
+    border: 1px solid tomato;
+    outline: 2px solid #3f3e3e;
+    cursor: pointer;
+}
+hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.flex-icon li{
+    list-style: none;
+    display: flex;
+    gap: 3px;
+}
+.flex-icon li:hover{
+    color: tomato;
+}
+
+@media (max-width: 1200px){
+    .navbar{
+        padding-top: 40px;
+    }
+    .logo{
+        width: 130px;
+    }
+    .ul{
+        font-size: 1.3rem;
+    }
+    .reduce-width{
+        width: 22px;
+    }
+    .button{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 950px){
+    /* .navbar{ */
+        /* flex-direction: column; */
+        /* align-items: center; */
+    /* } */
+    .ul li{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .ul{
+        margin-top: 17px;
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+}
+@media(max-width: 460px){
+    .right img{
+        width: 15px;
+    }
+    .button{
+        font-size: 1.1rem;
+        padding: 5px 20px;
+    }
+}

@@ -1,0 +1,22 @@
+.app-download{
+    margin: 60px auto;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+.download-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.download-icon img{
+    width: max(3vw, 7rem);
+}
+
+.download-icon img:hover{
+    transform: scale(1.05);
+}

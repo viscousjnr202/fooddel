@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+html{
+  height: 100%;
+}
+:root{
+  --color-txt: #222020
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Outfit;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.App{
+  width: 80%;
+  margin: auto;
+  flex: 1;
+}
+
+
+ 
+ 
+

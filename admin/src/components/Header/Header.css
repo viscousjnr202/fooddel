@@ -1,0 +1,12 @@
+.header{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img1{
+    width: 60px
+}
+.header img2{
+    width: 30px;
+}
